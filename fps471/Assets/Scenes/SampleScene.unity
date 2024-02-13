@@ -418,6 +418,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &851761459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8607910984721587455, guid: ff09553d2b4681748ba3b7ab63d93d84, type: 3}
+  m_PrefabInstance: {fileID: 3715399349339040917}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &963194228 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 963194228, guid: 7565b9a3156533248beb3562e39f792a, type: 3}
@@ -800,6 +805,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2475587853023746617, guid: 7565b9a3156533248beb3562e39f792a, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 851761459}
+    - target: {fileID: 2475587853023746617, guid: 7565b9a3156533248beb3562e39f792a, type: 3}
       propertyPath: mouseSen
       value: 75
       objectReference: {fileID: 0}
@@ -823,7 +832,8 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2827009519742832090, guid: 7565b9a3156533248beb3562e39f792a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7565b9a3156533248beb3562e39f792a, type: 3}
 --- !u!143 &1519033163393017995
 CharacterController:
